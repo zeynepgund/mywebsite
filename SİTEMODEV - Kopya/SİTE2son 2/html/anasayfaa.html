@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<meta charset="utf-8">
+<head>
+
+  <style>
+    .bb{
+        background-color: white;
+        width: 500px;
+        Height: 500px;
+        padding: 30px;
+        border: 2px solid white;
+        padding: 25px;
+    }
+
+    .bc{
+        background-color: white;
+        width: 500px;
+        height: 500px;
+        padding: 15px;
+        border: 3px solid white;
+        padding: 15px;
+    }
+
+
+</style>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../stillerim/stilim.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="topnav">
+  <a class="active" href="anasayfaa.html">Anasayfa</a>
+  <a href="hakkimizdaa.html">HAKKIMIZDA</a>
+  <a href="iletisimm.html">İLETİŞİM</a>
+
+  <div class="dropdown">
+  <button class="dropbtn" onclick="myFunction()">ALT BAŞLIKLAR
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-content" id="myDropdown">
+    <a href="bitkionemi.html">BİTKİLERİN ÖNEMİ</a>
+    <a href="cesit.html">BİTKİ ÇEŞİTLİLİĞİ</a>
+    <a href="onlem.html">ALINMASI GEREKEN ÖNLEMLER</a>
+  </div>
+  </div> 
+  <div class="login-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Kullanıcı Adı" name="username">
+      <input type="password" placeholder="Şifre" name="">
+	  <button type="button" onclick="window.location.href = 'kayitOl.html';">Kayıt Ol</button>
+	  <button type="submit">GİRİŞ</button>
+    </form>
+  </div>
+</div>
+
+<div style="padding-left:22px; font-weight: bold">
+  <h1>BİTKİLERİN GÜNÜMÜZDEKİ ÖNEMİ</h1>
+  <p>BİTKİLER NELER YAPIYOR?</p>
+  
+</div>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade" >
+  <div class="numbertext">1 / 4   </div> 
+  <img src="../resimlerim/bitki5.jpeg" style="width:100%; height:500px">
+ 
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 4</div>
+  <img src="../resimlerim/bitki1.jpeg" style="width:100%; height:500px">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 4</div>
+  <img src="../resimlerim/bitki4.jpeg" style="width:100%; height:500px">
+  <div class="text"></div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">4 / 4</div>
+  <img src="../resimlerim/bitki3.jpeg" style="width:100%; height:500px">
+  <div class="text"></div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<table>
+  <tr> 
+    <th></th>
+    <th></th>
+    <td>   <class="bb" style="text-size: 24px; font-weight: bold;"> 
+Bitkilerin hayatımıza olan etkisinin değerini maalesef bilmediğimiz bu çağda; toplumumuzu bilgilendirmek adına koyulan bu görseller, döngüyü sizlere aktarabilmemiz için aracıdır.
+      Oksijen döngüsü, atmosferdeki oksijenin bitki ve hayvanlar tarafından kullanılması ve ardından çevreye geri verilmesiyle gerçekleşir. Bu döngü, dört ana aşamadan oluşur: fotosentez, solunum, bozunma ve yanma. 
+        Oksijen tüm canlılar için temel yaşam kaynağıdır. Oksijen alıp karbondioksit veren canlılar oksijenin dengede olmasını sağlar. Ağaçlar da atmosferdeki karbondioksiti oksijene çevirir. Bu nedenle dünyada bulunan yeşil alanlar oksijenin kaynağı olarak kabul edilir.
+    </td>
+
+  
+  <td> <class="bc" style="text-size: 24px; font-weight: bold;">
+    <p> Oksijen dünya üzerinde tüm hayvanlar ve bitkiler tarafından bir yandan üretilirken bir yandan da tüketilmektedir. Bu süreçlerin birbiri ardında gerçekleşmesi ile oksijen döngüsü meydana gelir. Oksijenin üretimi bitkiler ve güneş ışığı sayesinde meydana gelmektedir. Bitkiler atmosferde soluduğumuz tüm havayı fotosentez yoluyla oluşturur. Bu sürecin içerisinde bitkiler enerji üretmek için güneş ışığını ve karbondioksiti kullanmaları gerekir. Bu şekilde bir süreç sonucu bitkiler havaya oksijen vererek atmosferde oksijen oluşumunu sağlar.
+    </td>
+    
+    </table>
+  
+
+
+<script src="../js/scriptt.js"></script>
+</body>
+</html> 

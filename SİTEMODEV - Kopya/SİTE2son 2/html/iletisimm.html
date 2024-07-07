@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../stillerim/stilim.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="topnav">
+  <a  href="anasayfaa.html">ANASAYFA</a>
+  <a  href="hakkimizdaa.html">HAKKIMIZDA</a>
+  <a class="active" href="iletisimm.html">İLETİŞİM</a>
+  <div class="dropdown">
+  <button class="dropbtn" onclick="myFunction()">ALT BAŞLIKLAR
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-content" id="myDropdown">
+    <a href="bitkionemi.html">BİTKİLERİN ÖNEMİ</a>
+    <a href="cesit.html">BİTKİ ÇEŞİTLİLİĞİi</a>
+    <a href="onlem.html">ALINMASI GEREKEN ÖNLEMLER</a>
+  </div>
+  </div> 
+  <div class="login-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Kullanıcı Adı" name="username">
+      <input type="password" placeholder="Şifre" name="">
+      <button type="button" onclick="window.location.href = 'kayitOl.html';">Kayıt Ol</button>
+      <button type="submit">Giriş</button>
+    </form>
+  </div>
+</div>
+
+<h3 style="padding-left:15px;">İletişim Formu</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">İsim</label>
+    <input type="text" id="fname" name="firstname" placeholder="İsminiz..">
+
+    <label for="lname">Soy isim</label>
+    <input type="text" id="lname" name="lastname" placeholder="Soy isminiz..">
+
+    <label for="country">Şehir</label>
+    <select id="country" name="country">
+      <option value="australia">Sakarya</option>
+      <option value="canada">Kocaeli</option>
+      <option value="usa">İzmir</option>
+      <option value="spain">Rize</option>
+      <option value="cyprus">Muğla</option>
+      <option value="usa">Ordu</option>
+      <option value="turkey">Adana</option>
+    </select>
+
+    <label for="subject">Konu</label>
+    <textarea id="subject" name="subject" placeholder="Bir Şeyler Yazın.." style="height:200px"></textarea>
+
+    <label for="telefon">Telefon</label>
+    <input type="text" id="telefon" name="Telefon Numarası" placeholder="Telefon Numaranızı Giriniz...">
+    <label for="Email">Email</label>
+    <input type="text" id="Email" name="Email Adresi" placeholder="Email Adresinizi Giriniz...">
+
+    <input type="submit" value="Gönder">
+  </form>
+</div>
+
+
+
+<script src="../js/scriptt.js"></script>
+</body>
+</html> 
